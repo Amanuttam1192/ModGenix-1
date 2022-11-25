@@ -5,5 +5,5 @@
  
   <h3>Made-by:Aman Uttam,Aayush Singh,Aishwary Dongre</h3>
   <h2>Note:This is the first generation of the modgenix utility,we ought to bring regular updates in the same.<h2>
-  Jai Shree Ram
+  
 
