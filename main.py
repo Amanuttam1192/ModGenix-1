@@ -408,6 +408,11 @@ class Det_Report(tk.Frame):
 		           justify='left', aspect=200).grid(row=6, column=2, padx=2, pady=2, sticky=W)
 		tk.Message(new, text=" The Keywords Extracted are :- \n"+key, font='System 12',
 		           justify='left', aspect=900).grid(row=7, column=2, padx=2, pady=2, sticky=W)
+		messagebox.showinfo("Acc to panel members:","Your Total Marks is ="+ ans)
+		messagebox.showinfo("Acc to JD-1:","The Similarity factor of the sentence is {:.2%}".format(fr/100))
+		messagebox.showinfo("Acc to JD-2:","The Grammar accuracy of the sentence is  {:.2%}".format(gm))
+		messagebox.showinfo("Acc to JD-3:","The Total Keywords found in the sentence is {:.2%}".format(kt))
+		messagebox.showinfo("Acc to JD-4:","The Keyword order accuracy of the sentence is  {:.2%}".format(cm))		   
 
 		new.button2 = tk.Button(new, text="Close", width=15,
 		                        command=self.close_window)
